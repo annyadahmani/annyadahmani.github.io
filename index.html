@@ -24,13 +24,13 @@
 <script>
 var i = 0;
     var  x=0;
-var txt = 'Hi, I am Annya.';
+var txt = 'Hi, I am Annya';
 var txt2= 'Welcome to my webpage.';
 var speed = 50;
 
 function typeWriter() {
   if (i < txt.length) {
-    document.getElementById("demo").innerHTML += txt.charAt(i);
+    document.getElementById("demo").innerHTML += "<mark>" + txt.charAt(i) + "</mark>";
     i++;
     setTimeout(typeWriter, speed);
   }
@@ -39,7 +39,7 @@ function typeWriter() {
     
     function typeWriter2() {
   if (x < txt2.length) {
-    document.getElementById("demo2").innerHTML += txt2.charAt(x);
+    document.getElementById("demo2").innerHTML += "<mark>" + txt2.charAt(x) + "</mark>";
     x++;
     setTimeout(typeWriter2, speed*2);
   }
