@@ -22,6 +22,7 @@
         </ul>
 <script>
 var i = 0;
+    var  x=0;
 var txt = 'Hi, I am Annya.';
 var txt2= 'Welcome to my webpage.';
 var speed = 50;
@@ -36,9 +37,9 @@ function typeWriter() {
 }
     
     function typeWriter2() {
-  if (i < txt2.length) {
-    document.getElementById("demo2").innerHTML += txt2.charAt(i);
-    i++;
+  if (x < txt2.length) {
+    document.getElementById("demo2").innerHTML += txt2.charAt(x);
+    x++;
     setTimeout(typeWriter2, speed);
   }
 }
