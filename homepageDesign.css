@@ -1,11 +1,15 @@
 h1 {
-    position: fixed; 
-    top: 50%;
-    left: 50%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     white-space: nowrap;
     z-index:2;
     font-size: 20pt;
+    left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
   }
   h2 {
       position: fixed; 
@@ -16,12 +20,6 @@ h1 {
       font-size: 25pt;
       white-space: nowrap;
       z-index:1;
-  }
-  #pic {
-      position: fixed; 
-      left: 0%;
-      bottom:0px;
-      float:none;
   }
   
   body{
