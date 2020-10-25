@@ -1,0 +1,56 @@
+body{
+    background-color:rgb(207,236, 207); 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#titleabout {
+    font-size: 25px;
+    margin-top:-10px;
+
+}
+
+mark {
+    background-color: rgba(139, 156, 139, 0.664); /*rgb(251, 182,209,0.5);*/
+    }
+
+#pic {
+    padding: 20px;
+    float: right;
+    margin-top:-45px;
+    background-color:rgb(207,236, 207); 
+
+  }
+
+#myabout{
+    background-color: white;
+    padding-top: 50px;
+  padding-right: 600px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+    margin-top:-25px;
+}
+
+#navigator, ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+#navigator, li {
+    float: right;
+  }
+
+  
+#navigator, li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+#navigator, li a:hover {
+    background-color: aliceblue;
+  }
