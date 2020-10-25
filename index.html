@@ -7,7 +7,7 @@
     <body onload="typeWriter()">
 
         <h1 id="demo"><mark> </mark></h1>
-        <h2 id="demo"><mark><b> <br>(IN PROGRESS)</br> </b></mark></h2>
+        <h2 id="demo2"><mark><b> <br>(IN PROGRESS)</br> </b></mark></h2>
 
         <ul>
             <li><a href="https://annyadahmani.github.io/Contact" target="_blank"> Contact</a></li>  
@@ -22,7 +22,8 @@
         </ul>
 <script>
 var i = 0;
-var txt = 'Hi, I am Annya. Welcome to my webpage';
+var txt = 'Hi, I am Annya.';
+var txt2= 'Welcome to my webpage.';
 var speed = 50;
 
 function typeWriter() {
@@ -30,6 +31,15 @@ function typeWriter() {
     document.getElementById("demo").innerHTML += txt.charAt(i);
     i++;
     setTimeout(typeWriter, speed);
+  }
+    typeWriter2();
+}
+    
+    function typeWriter2() {
+  if (i < txt2.length) {
+    document.getElementById("demo2").innerHTML += txt2.charAt(i);
+    i++;
+    setTimeout(typeWriter2, speed);
   }
 }
 </script>
