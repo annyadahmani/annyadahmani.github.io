@@ -4,10 +4,10 @@
         <link rel="stylesheet" type="text/css" href="homepageDesign.css" />
         <title>Annya's Webpage</title>
     </head>
-    <body>
+    <body onload="typeWriter()">
 
-        <h1><mark> Hello, I'm Annya</mark></h1>
-        <h2><mark><b>Welcome to my webpage <br>(IN PROGRESS)</br> </b></mark></h2>
+        <h1 id="demo"><mark> </mark></h1>
+        <h2 id="demo"><mark><b> <br>(IN PROGRESS)</br> </b></mark></h2>
 
         <ul>
             <li><a href="https://annyadahmani.github.io/Contact" target="_blank"> Contact</a></li>  
@@ -20,6 +20,18 @@
 
             <li><a href="https://annyadahmani.github.io/" target="_blank"> Home</a> </li> 
         </ul>
+<script>
+var i = 0;
+var txt = 'Hi, I am Annya. Welcome to my webpage';
+var speed = 50;
 
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
     </body>
 </html>
