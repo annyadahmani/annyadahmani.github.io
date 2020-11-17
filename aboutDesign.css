@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(207,236, 207); 
+    background-color:rgb(180, 220, 250); 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -17,7 +17,7 @@ mark {
     padding: 20px;
     float: right;
     margin-top:-45px;
-    background-color:rgb(207,236, 207); 
+    background-color:rgb(180, 220, 250); 
 
   }
 
